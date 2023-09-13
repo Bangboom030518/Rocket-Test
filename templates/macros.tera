@@ -1,0 +1,13 @@
+{% macro nav(current_page="") %}
+    {% set pages = ["Home"] %}
+    {% for page in pages %}
+        {% if current_page == page %}{% continue %}{% endif %}
+        <a href="{{ page | lower }}" class="">{{ page | capitalize }}</a>
+    {% endfor %}
+{% endmacro page %}
+
+{% macro error(content) %}
+    <article class="card">
+        {{ content }}
+    </article>
+{% endmacro error %}

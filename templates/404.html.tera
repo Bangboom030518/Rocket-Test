@@ -1,0 +1,12 @@
+{% extends "base" %}
+
+{% block title %}
+404 Not Found
+{% endblock title %}
+
+{% block content %}
+<article>
+    <h1>404 Not Found</h1>
+    <p>Sorry, it looks like the page <code>{{ url }}</code> couldn't be found. What a shame!</p>
+</article>
+{% endblock content %}

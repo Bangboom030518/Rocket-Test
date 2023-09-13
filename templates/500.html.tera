@@ -1,0 +1,5 @@
+{% import "macros" as macros %}
+{% extends "base" %}
+{% block content %}
+    {{ macros::error(content="<p>Sorry, the server encountered an error!</p>") }}
+{% endblock content %}

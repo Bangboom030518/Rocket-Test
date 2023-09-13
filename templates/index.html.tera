@@ -1,0 +1,15 @@
+{% extends "base" %}
+{% block title %}
+Home
+{% endblock title %}
+{% block content %}
+<h1>Welcome To Rocket!</h1>
+<article class="p-4 bg-neutral-400">
+    <h2>Example</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</article>
+{% endblock content %}
